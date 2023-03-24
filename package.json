@@ -1,0 +1,28 @@
+{
+  "name": "todo_github",
+  "version": "1.0.0",
+  "description": "TODO app, which is using Github Issues as \"database\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrtrvl/TODO_Github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrtrvl/TODO_Github/issues"
+  },
+  "homepage": "https://github.com/mrtrvl/TODO_Github#readme",
+  "dependencies": {
+    "@octokit/rest": "^19.0.7",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-github": "^1.1.0"
+  }
+}
